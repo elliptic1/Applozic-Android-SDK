@@ -8,7 +8,6 @@ ext {
 
 android {
     compileSdkVersion rootProject.hasProperty("compileSdkVersion") ? rootProject.compileSdkVersion : defaultCompileSdkVersion
-    buildToolsVersion rootProject.hasProperty("buildToolVersion") ? rootProject.buildToolVersion : defaultBuildToolVersion
 
     defaultConfig {
         minSdkVersion 14
